@@ -1,0 +1,20 @@
+[tool.pylance]
+# Configuration for Pylance type checker
+reportMissingTypeStubs = "none"
+reportUnknownMemberType = "none"
+reportUnknownVariableType = "none"
+reportUnknownParameterType = "none"
+reportUnknownArgumentType = "none"
+reportAttributeAccessIssue = "none"
+
+[tool.pyright]
+# Configuration for Pyright type checker (used by Pylance)
+reportMissingTypeStubs = "none"
+reportUnknownMemberType = "none"
+reportUnknownVariableType = "none"
+reportUnknownParameterType = "none"
+reportUnknownArgumentType = "none"
+reportAttributeAccessIssue = "none"
+
+# Ignore packages without type stubs
+typeCheckingMode = "basic"
